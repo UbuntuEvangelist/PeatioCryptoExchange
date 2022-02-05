@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gem 'peatio', '~> 2.6', '>= 2.6.5'
 gem 'peatio-tron', '~> 0.1.0'
+gem "activerecord", ">= 4.1.14.1"
+
 
 gem 'rails', '~> 4.0.12'
 gem 'rails-i18n'
