@@ -2,24 +2,24 @@ source 'https://rubygems.org'
 
 gem 'peatio', '~> 2.6', '>= 2.6.5'
 gem 'peatio-tron', '~> 0.1.0'
-gem 'activerecord', '~> 7.0', '>= 7.0.1'
+gem 'activerecord'
 
 
-gem 'rails', '~> 4.0.12'
+gem 'rails'
 gem 'rails-i18n'
 
-gem 'mysql2', '~> 0.3.21'
+gem 'mysql2'
 gem 'daemons-rails'
 gem 'redis-rails'
 
 gem 'rotp'
 gem 'json'
 gem 'jbuilder'
-gem 'bcrypt-ruby', '~> 3.1.2'
+gem 'bcrypt-ruby'
 
-gem 'doorkeeper', '~> 1.4.1'
-gem 'omniauth', '~> 1.2.1'
-gem 'omniauth-identity', '~> 1.1.1'
+gem 'doorkeeper'
+gem 'omniauth'
+gem 'omniauth-identity'
 
 gem 'figaro'
 gem 'hashie'
