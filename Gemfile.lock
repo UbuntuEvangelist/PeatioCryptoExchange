@@ -167,11 +167,11 @@ GEM
     globalize (4.0.0)
       activemodel (>= 4.0.0, < 5)
       activerecord (>= 4.0.0, < 5)
-    gon (5.2.0)
-      actionpack (>= 2.3.0)
-      json
+    gon (6.4.0)
+      actionpack (>= 3.0.20)
+      i18n (>= 0.7)
       multi_json
-      request_store (>= 1.0.5)
+      request_store (>= 1.0)
     grape (0.7.0)
       activesupport
       builder
@@ -329,7 +329,8 @@ GEM
       redis-store (~> 1.1.0)
     redis-store (1.1.4)
       redis (>= 2.2)
-    request_store (1.1.0)
+    request_store (1.5.1)
+      rack (>= 1.4)
     rest-client (1.6.8)
       mime-types (~> 1.16)
       rdoc (>= 2.4.2)
@@ -459,7 +460,7 @@ DEPENDENCIES
   figaro
   font-awesome-sass
   globalize (~> 4.0.0)
-  gon (~> 5.2.0)
+  gon (~> 6.4.0)
   grape (~> 0.7.0)
   grape-entity (~> 0.4.2)
   grape-swagger (~> 0.7.2)
